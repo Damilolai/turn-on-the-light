@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURN-ON-THE-LIGHT</title>
+</head>
+<body>
+    <h1>TURN-ON-THE-LIGHT</h1>
+    <button id="myBtn1">Switch On</button>
+    <img id="bulbChange" src="asset/pic_bulboff.gif">
+    <button id="myBtn2">Switch-off</button>
+
+    <script>
+    const btn1 = document.getElementById("myBtn1")
+    const btn2 = document.getElementById("myBtn2")
+    var img = document.getElementById("bulbChange")
+
+    btn1.addEventListener("click",function(){bulbChange.src="asset/pic_bulbon.gif"})
+    btn2.addEventListener("click",function(){bulbChange.src="asset/pic_bulboff.gif"})
+    </script>
+
+</body>
+</html>
